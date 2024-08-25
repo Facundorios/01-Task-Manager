@@ -16,6 +16,8 @@
 
 **Task Manager**: Este repositorio contiene un backend para un administrador de tareas, desarrollado con React en el frontend y Node.js, Express y MongoDB en el backend. Se utiliza JWT para la autenticación y Axios para la comunicación entre el frontend y el backend.
 
+**Estado**: Finalizado.
+
 ## Instalación de librerías
 
 ```bash
