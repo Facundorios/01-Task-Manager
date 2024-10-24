@@ -10,4 +10,5 @@ export const envs = {
     DB_PASSWORD: env.get('DB_PASSWORD').required().asString(),
     DB_NAME: env.get('DB_NAME').required().asString(),
     DB_DIALECT: process.env.DB_DIALECT as Dialect || 'mysql',
+    JWT_SECRET_KEY: env.get('JWT_SECRET_KEY').required().asString(),
 }
